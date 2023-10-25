@@ -21,5 +21,7 @@ def int_to_roman(num):
         i += 1
     return roman_num
 
-for i  in range(27-2):
-  numerals.append(int_to_roman(i))
+for i in range(27-1):
+    numerals.append(int_to_roman(i+2))
+
+print(numerals)
