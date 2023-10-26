@@ -1,6 +1,7 @@
 # https://spacy.io/
 # https://github.com/Suyash458/WiktionaryParser
 
+# Wiktionary scrapper (https://github.com/Suyash458/WiktionaryParser)? Perseus?
 # start with French. PP vocab from https://gutenberg.net.au/ebooks03/0300771h.html
 
 """
@@ -27,5 +28,13 @@ word_freq = Counter(lemmas)
 common_words = word_freq.most_common(100)
 df = pd.DataFrame(common_words, columns = ['words', 'count'])
 
-# print(df.tail(10))
-print(lemmas)
+df['known'] = 0
+for word in range(len(df)):
+    print('word: ', df['words'][word],'\noccurences: ', df['count'][word])
+    known = input("Do you know this word? (y/n)")
+    if known == 'y':
+        df['known'][word] = 1
+    else:
+        df['known'][word] = 0
+
+print(df)
