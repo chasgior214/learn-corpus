@@ -1,6 +1,11 @@
 import wiktionaryparser as wkp
 # would some sort of dictionary API be better and/or faster?
 # https://github.com/n-wissam/wordreference   ?
+# https://dictionaryapi.com/
+# https://www.wordsapi.com/
+# http://developer.wordnik.com/pricing
+# https://www.datamuse.com/api/
+
 def get_translations(word, language='fr'):
     """
     Returns a list of all translations in the specified language for a given word (in all parts of speech) from English Wiktionary
