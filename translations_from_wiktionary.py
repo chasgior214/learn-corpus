@@ -9,6 +9,8 @@ import wiktionaryparser as wkp
 def get_translations(word, language='fr'):
     """
     Returns a list of all translations in the specified language for a given word (in all parts of speech) from English Wiktionary
+    
+    Add: If no results in English Wiktionary, return a Google Translate of all of the results in French Wiktionary
     """
     parser = wkp.WiktionaryParser()
     if language == 'fr':

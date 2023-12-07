@@ -55,18 +55,21 @@ def ask_if_words_are_known(words):
 
     return output
 
-def quiz_on_words(words, translations):
+def quiz_on_words(words, translations, first_time=False):
     root = tk.Tk()
     root.title('Vocab quiz')
     current_word_index = 0
     num_words = len(words)
     output = []
-    translations = [', '.join(translation) for translation in translations]
+    if first_time:
+        translations = [', '.join(translation) for translation in translations]
 
     def check_translation(event=None):
         nonlocal current_word_index
         user_input = entry.get().strip().lower()
-        if user_input in translations[current_word_index].lower():
+        if user_input == '':
+            output.append(False)
+        elif user_input in translations[current_word_index].lower():
             output.append(True)
         else:
             output.append(False)
@@ -86,6 +89,25 @@ def quiz_on_words(words, translations):
     root.mainloop()
 
     return output
+
+def startup_what_to_do():
+    root = tk.Tk()
+    root.title('What to do?')
+    output = []
+
+    def on_button_click(choice):
+        output.append(choice)
+        root.destroy()
+    
+    button1 = tk.Button(root, text="Lemmatize new text", command=lambda: on_button_click('lemmatize new text'))
+    button1.pack()
+    button2 = tk.Button(root, text="Return to saved text", command=lambda: on_button_click('return to saved text'))
+    button2.pack()
+
+    root.mainloop()
+
+    return output[0]
+
 
 
 if __name__ == '__main__':
