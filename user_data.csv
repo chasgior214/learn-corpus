@@ -1,57 +1,62 @@
-lemma,freq,translations
-moi,7,
-demander,1,
-pardon,1,
-à,4,
-le,7,
-enfant,4,
-de,4,
-avoir,9,
-dédier,2,
-ce,7,
-livre,3,
-un,5,
-grand,6,
-personne,6,
-excuse,4,
-sérieux,1,
-être,4,
-meilleur,1,
-ami,1,
-que,2,
-monde,1,
-autre,1,
-pouvoir,1,
-tout,3,
-comprendre,1,
-même,1,
-pour,1,
-troisième,1,
-habiter,1,
-France,1,
-où,1,
-lui,2,
-faim,1,
-et,1,
-froid,1,
-besoin,1,
-consoler,1,
-si,1,
-ne,1,
-suffiser,1,
-pas,1,
-vouloir,1,
-bien,1,
-autrefois,1,
-abord,1,
-mais,1,
-peu,1,
-entre,1,
-eux,1,
-soi,1,
-en,1,
-souvenir,1,
-corriger,1,
-donc,1,
-son,1,
-dédicace,1,
+lemma,freq,translations,known
+dédicace,2,"['dedication', 'inflection of dédicacer:']",True
+à,6,"['A with grave accent', 'a letter used in French mostly to distinguish some homographs and in transliteration.']",True
+LÉON,2,[],False
+WERTH,2,[],False
+moi,7,"['me', 'to me', 'ego']",True
+demander,1,"['to ask', 'to request', 'to wonder']",True
+pardon,1,"['excuse me', 'sorry', 'pardon', 'forgiveness']",True
+le,7,"['the', 'Used before abstract nouns', 'not translated in English.', 'Used before the names of most countries', 'many subnational regions', 'and other geographical names including names of lakes and streets', 'not translated into English in most cases.', 'the', 'my', 'your', 'etc.', 'a', 'an', 'per', 'on', 'him', 'it', 'used to refer to something previously mentioned or implied', 'not translated in English']",True
+enfant,4,"['child', 'child', 'son', 'native']",True
+de,4,"['of', 'of', 'from', 'of', 'used attributively', 'often translated into English as a compound word', 'from', 'used after certain verbs before an infinitive', 'often translated into English as a gerund or an infinitive', 'by', 'Used in the plural with prepositioned adjectives.', 'Used in negated sentences with the grammatical object.']",True
+avoir,9,"['asset', 'possession', 'to have', 'to have', 'to have', 'to have', 'to have', 'to have', 'to have', 'must']",True
+dédier,2,['to dedicate'],True
+ce,7,"['this', 'that']",True
+livre,3,['book'],True
+un,5,"['an', 'a', 'one', 'one', 'someone', 'one']",True
+grand,6,"['big', 'tall', 'grown up', 'big', 'great', 'big fat', 'grown-up']",True
+personne,6,"['person', 'no one', 'nobody', 'anyone']",True
+excuse,4,"['excuse', 'inflection of excuser:']",True
+sérieux,1,"['serious', 'really? for real?']",True
+être,5,"['to be', 'Used to form the perfect and pluperfect tense of certain verbs', 'to be', 'being', 'creature', 'being', 'the state or fact of existence']",True
+meilleur,1,"['comparative degree of bon', 'comparative degree of bien', 'superlative degree of bon', 'superlative degree of bien', 'best']",True
+ami,1,['friend'],True
+que,2,"['that', 'Substitutes for another', 'previously stated conjunction.', 'when', 'no sooner', 'Links two noun phrases in apposition forming a clause without a  verb', 'such that the complement acts as predicate.']",True
+monde,1,"['world', 'people', 'good heavens']",True
+autre,1,"['other', 'another']",True
+pouvoir,1,"['can', 'to be able to', 'may', 'to be possible', 'may', 'could be', 'power', 'authority', 'power of attorney']",True
+tout,3,"['all', 'all', 'whole', 'entirety', 'total', 'everything']",True
+comprendre,1,"['to understand', 'comprehend', 'to comprise', 'include', 'to know each other well or intimately', 'to be comprehensible or conceivable']",True
+même,1,"['even', 'same', 'very']",True
+pour,1,"['for', 'for', 'for', 'for', 'to', 'for', 'to']",True
+troisième,1,"['third', 'third class']",True
+habiter,1,"['to live in', 'to occupy', 'to live']",True
+France,1,"['France', 'a female given name', 'a French surname']",True
+où,1,"['where', 'where', 'at that time', 'when', 'whither', 'to where']",True
+lui,3,"['him', 'he', 'the third-person masculine singular personal pronoun used after a preposition', 'or as the predicate of a linking verb', 'or when disjoined from a sentence', 'or as a stressed subject', 'him', 'her', 'the third-person singular personal pronoun used as an indirect object']",True
+faim,1,"['hunger', 'hunger']",True
+et,1,['and'],True
+froid,1,"['cold', 'cold', 'chill', 'distance', 'strain']",True
+besoin,1,"['need', 'want']",True
+consoler,1,"['to comfort', 'console']",True
+si,1,"['if', 'whether', 'if', 'even if', 'although', 'while']",True
+ne,1,[],False
+suffiser,1,[],False
+pas,1,"['step', 'pace', 'footstep', 'strait', 'pass', 'thread', 'pitch', 'The most common adverb of negation in French', 'typically translating into English as not', ""don't"", ""doesn't"", 'etc.']",True
+vouloir,1,"['to want', 'wish', 'desire', 'to see oneself as', 'to give the impression of', 'to seem', 'will']",True
+bien,1,"['good', 'all right', 'great', 'good looking', 'nice', 'well', 'indeed', 'so', 'a lot', 'very', 'really', 'much', 'good as opposed to evil', 'a commodity', 'a good', 'a possession']",True
+autrefois,1,"['previously', 'formerly', 'erstwhile']",True
+abord,1,"['the manner with which one acts in the presence of another person or persons', 'especially in a first encounter', 'the surroundings of a place', 'arrival or accessibility by water']",True
+mais,1,"['but', 'although', 'an expression of surprise', 'disbelief', 'or frustration roughly equivalent to the English well', 'or sometimes yeah']",True
+peu,1,"['little', 'not very much/many', 'few', 'little']",True
+entre,1,"['between', 'among']",True
+eux,1,['they: disjunctive form of ils'],True
+soi,1,"['nominative pronoun reinforcing indefinite or very generalized subject', 'one', 'Designating or reinforcing a reflexive  object or the regime of a preposition', 'himself', 'herself', 'itself']",True
+en,1,"['in', 'to', 'by', 'as', 'at', 'of', 'made of', 'in', 'while', 'by', 'in', 'in', 'in', 'in']",True
+souvenir,1,"['to remember', 'memory', 'souvenir']",True
+corriger,1,"['to correct', '', 'to grade', 'to mark']",True
+donc,1,"['therefore', 'consequently', 'thus']",True
+son,1,['sound'],False
+quand,1,['when'],True
+petit,1,"['small', 'little', 'petty', 'small one', 'little one', 'little one', 'child', 'the young']",True
+garçon,1,"['boy', 'young man', 'man', 'Generic name of a male employee in some industries', 'Short for garçon de café.']",True

@@ -12,6 +12,7 @@ def get_translations(word, language='fr'):
     
     Add: If no results in English Wiktionary, return a Google Translate of all of the results in French Wiktionary
     """
+    # why does 'son' only return 'sound' and not 'his'?
     parser = wkp.WiktionaryParser()
     if language == 'fr':
         parser.set_default_language('french')
